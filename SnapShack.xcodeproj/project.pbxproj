@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEBA54C119408CAA0088BB20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBA54C019408CAA0088BB20 /* Foundation.framework */; };
+		FEBA54C319408CAB0088BB20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBA54C219408CAB0088BB20 /* CoreGraphics.framework */; };
+		FEBA54C519408CAB0088BB20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBA54C419408CAB0088BB20 /* UIKit.framework */; };
+		FEBA54CB19408CAB0088BB20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEBA54C919408CAB0088BB20 /* InfoPlist.strings */; };
+		FEBA54CD19408CAB0088BB20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA54CC19408CAB0088BB20 /* main.m */; };
+		FEBA54D119408CAB0088BB20 /* DMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA54D019408CAB0088BB20 /* DMAppDelegate.m */; };
+		FEBA54D419408CAB0088BB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBA54D219408CAB0088BB20 /* Main.storyboard */; };
+		FEBA54D719408CAB0088BB20 /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA54D619408CAB0088BB20 /* DMViewController.m */; };
+		FEBA54D919408CAB0088BB20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBA54D819408CAB0088BB20 /* Images.xcassets */; };
+		FEBA54E019408CAB0088BB20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBA54DF19408CAB0088BB20 /* XCTest.framework */; };
+		FEBA54E119408CAB0088BB20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBA54C019408CAA0088BB20 /* Foundation.framework */; };
+		FEBA54E219408CAB0088BB20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBA54C419408CAB0088BB20 /* UIKit.framework */; };
+		FEBA54EA19408CAB0088BB20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEBA54E819408CAB0088BB20 /* InfoPlist.strings */; };
+		FEBA54EC19408CAB0088BB20 /* SnapShackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA54EB19408CAB0088BB20 /* SnapShackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEBA54E319408CAB0088BB20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBA54B519408CAA0088BB20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBA54BC19408CAA0088BB20;
+			remoteInfo = SnapShack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEBA54BD19408CAA0088BB20 /* SnapShack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapShack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA54C019408CAA0088BB20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEBA54C219408CAB0088BB20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEBA54C419408CAB0088BB20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEBA54C819408CAB0088BB20 /* SnapShack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapShack-Info.plist"; sourceTree = "<group>"; };
+		FEBA54CA19408CAB0088BB20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEBA54CC19408CAB0088BB20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEBA54CE19408CAB0088BB20 /* SnapShack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapShack-Prefix.pch"; sourceTree = "<group>"; };
+		FEBA54CF19408CAB0088BB20 /* DMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAppDelegate.h; sourceTree = "<group>"; };
+		FEBA54D019408CAB0088BB20 /* DMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegate.m; sourceTree = "<group>"; };
+		FEBA54D319408CAB0088BB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEBA54D519408CAB0088BB20 /* DMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
+		FEBA54D619408CAB0088BB20 /* DMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
+		FEBA54D819408CAB0088BB20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEBA54DE19408CAB0088BB20 /* SnapShackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapShackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA54DF19408CAB0088BB20 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FEBA54E719408CAB0088BB20 /* SnapShackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapShackTests-Info.plist"; sourceTree = "<group>"; };
+		FEBA54E919408CAB0088BB20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEBA54EB19408CAB0088BB20 /* SnapShackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapShackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBA54BA19408CAA0088BB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA54C319408CAB0088BB20 /* CoreGraphics.framework in Frameworks */,
+				FEBA54C519408CAB0088BB20 /* UIKit.framework in Frameworks */,
+				FEBA54C119408CAA0088BB20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA54DB19408CAB0088BB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA54E019408CAB0088BB20 /* XCTest.framework in Frameworks */,
+				FEBA54E219408CAB0088BB20 /* UIKit.framework in Frameworks */,
+				FEBA54E119408CAB0088BB20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEBA54B419408CAA0088BB20 = {
+			isa = PBXGroup;
+			children = (
+				FEBA54C619408CAB0088BB20 /* SnapShack */,
+				FEBA54E519408CAB0088BB20 /* SnapShackTests */,
+				FEBA54BF19408CAA0088BB20 /* Frameworks */,
+				FEBA54BE19408CAA0088BB20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBA54BE19408CAA0088BB20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA54BD19408CAA0088BB20 /* SnapShack.app */,
+				FEBA54DE19408CAB0088BB20 /* SnapShackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBA54BF19408CAA0088BB20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA54C019408CAA0088BB20 /* Foundation.framework */,
+				FEBA54C219408CAB0088BB20 /* CoreGraphics.framework */,
+				FEBA54C419408CAB0088BB20 /* UIKit.framework */,
+				FEBA54DF19408CAB0088BB20 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEBA54C619408CAB0088BB20 /* SnapShack */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA54CF19408CAB0088BB20 /* DMAppDelegate.h */,
+				FEBA54D019408CAB0088BB20 /* DMAppDelegate.m */,
+				FEBA54D219408CAB0088BB20 /* Main.storyboard */,
+				FEBA54D519408CAB0088BB20 /* DMViewController.h */,
+				FEBA54D619408CAB0088BB20 /* DMViewController.m */,
+				FEBA54D819408CAB0088BB20 /* Images.xcassets */,
+				FEBA54C719408CAB0088BB20 /* Supporting Files */,
+			);
+			path = SnapShack;
+			sourceTree = "<group>";
+		};
+		FEBA54C719408CAB0088BB20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA54C819408CAB0088BB20 /* SnapShack-Info.plist */,
+				FEBA54C919408CAB0088BB20 /* InfoPlist.strings */,
+				FEBA54CC19408CAB0088BB20 /* main.m */,
+				FEBA54CE19408CAB0088BB20 /* SnapShack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEBA54E519408CAB0088BB20 /* SnapShackTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA54EB19408CAB0088BB20 /* SnapShackTests.m */,
+				FEBA54E619408CAB0088BB20 /* Supporting Files */,
+			);
+			path = SnapShackTests;
+			sourceTree = "<group>";
+		};
+		FEBA54E619408CAB0088BB20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA54E719408CAB0088BB20 /* SnapShackTests-Info.plist */,
+				FEBA54E819408CAB0088BB20 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBA54BC19408CAA0088BB20 /* SnapShack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA54EF19408CAB0088BB20 /* Build configuration list for PBXNativeTarget "SnapShack" */;
+			buildPhases = (
+				FEBA54B919408CAA0088BB20 /* Sources */,
+				FEBA54BA19408CAA0088BB20 /* Frameworks */,
+				FEBA54BB19408CAA0088BB20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapShack;
+			productName = SnapShack;
+			productReference = FEBA54BD19408CAA0088BB20 /* SnapShack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEBA54DD19408CAB0088BB20 /* SnapShackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA54F219408CAB0088BB20 /* Build configuration list for PBXNativeTarget "SnapShackTests" */;
+			buildPhases = (
+				FEBA54DA19408CAB0088BB20 /* Sources */,
+				FEBA54DB19408CAB0088BB20 /* Frameworks */,
+				FEBA54DC19408CAB0088BB20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBA54E419408CAB0088BB20 /* PBXTargetDependency */,
+			);
+			name = SnapShackTests;
+			productName = SnapShackTests;
+			productReference = FEBA54DE19408CAB0088BB20 /* SnapShackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBA54B519408CAA0088BB20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ahmed Hamdy";
+				TargetAttributes = {
+					FEBA54DD19408CAB0088BB20 = {
+						TestTargetID = FEBA54BC19408CAA0088BB20;
+					};
+				};
+			};
+			buildConfigurationList = FEBA54B819408CAA0088BB20 /* Build configuration list for PBXProject "SnapShack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBA54B419408CAA0088BB20;
+			productRefGroup = FEBA54BE19408CAA0088BB20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBA54BC19408CAA0088BB20 /* SnapShack */,
+				FEBA54DD19408CAB0088BB20 /* SnapShackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBA54BB19408CAA0088BB20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA54D919408CAB0088BB20 /* Images.xcassets in Resources */,
+				FEBA54CB19408CAB0088BB20 /* InfoPlist.strings in Resources */,
+				FEBA54D419408CAB0088BB20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA54DC19408CAB0088BB20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA54EA19408CAB0088BB20 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBA54B919408CAA0088BB20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA54CD19408CAB0088BB20 /* main.m in Sources */,
+				FEBA54D719408CAB0088BB20 /* DMViewController.m in Sources */,
+				FEBA54D119408CAB0088BB20 /* DMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA54DA19408CAB0088BB20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA54EC19408CAB0088BB20 /* SnapShackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEBA54E419408CAB0088BB20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBA54BC19408CAA0088BB20 /* SnapShack */;
+			targetProxy = FEBA54E319408CAB0088BB20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEBA54C919408CAB0088BB20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBA54CA19408CAB0088BB20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEBA54D219408CAB0088BB20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBA54D319408CAB0088BB20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBA54E819408CAB0088BB20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBA54E919408CAB0088BB20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEBA54ED19408CAB0088BB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FEBA54EE19408CAB0088BB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBA54F019408CAB0088BB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapShack/SnapShack-Prefix.pch";
+				INFOPLIST_FILE = "SnapShack/SnapShack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEBA54F119408CAB0088BB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapShack/SnapShack-Prefix.pch";
+				INFOPLIST_FILE = "SnapShack/SnapShack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FEBA54F319408CAB0088BB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnapShack.app/SnapShack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapShack/SnapShack-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnapShackTests/SnapShackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FEBA54F419408CAB0088BB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnapShack.app/SnapShack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapShack/SnapShack-Prefix.pch";
+				INFOPLIST_FILE = "SnapShackTests/SnapShackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBA54B819408CAA0088BB20 /* Build configuration list for PBXProject "SnapShack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA54ED19408CAB0088BB20 /* Debug */,
+				FEBA54EE19408CAB0088BB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBA54EF19408CAB0088BB20 /* Build configuration list for PBXNativeTarget "SnapShack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA54F019408CAB0088BB20 /* Debug */,
+				FEBA54F119408CAB0088BB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEBA54F219408CAB0088BB20 /* Build configuration list for PBXNativeTarget "SnapShackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA54F319408CAB0088BB20 /* Debug */,
+				FEBA54F419408CAB0088BB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEBA54B519408CAA0088BB20 /* Project object */;
+}
