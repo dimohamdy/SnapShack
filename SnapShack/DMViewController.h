@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DMViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIView *shotView;
 
 @end
